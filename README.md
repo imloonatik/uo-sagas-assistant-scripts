@@ -1,6 +1,6 @@
 # UO Sagas Scripts
 
-A collection of custom Razor Enhanced scripts created by **Loonatik** for use on the [UO Sagas](https://www.uosagas.com) shard. These scripts are designed to streamline and enhance gameplay through safe automation of repetitive tasks.
+A collection of custom UO Sagas Assisant scripts created by **Loonatik** for use on the [UO Sagas](https://www.uosagas.com) shard. These scripts are designed to streamline and enhance gameplay through safe automation of repetitive tasks.
 
 Each script in this repository is written specifically for the UO Sagas ruleset and mechanics, with stability, safety, and in-game fairness in mind.
 
