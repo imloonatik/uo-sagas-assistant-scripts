@@ -37,6 +37,7 @@ Before using the script, **edit the top of the script** to set your desired max 
 ```lua
 local MAX_WEIGHT = 390
 local MAX_WEIGHT_DIFF = 10
+```
 
 - MAX_WEIGHT should be close to your character’s actual weight limit.
 - MAX_WEIGHT_DIFF is the buffer zone — when your weight is above MAX_WEIGHT - MAX_WEIGHT_DIFF, the script will convert logs to boards.
