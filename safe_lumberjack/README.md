@@ -7,7 +7,7 @@ Modified and extended by **Loonatik**
 
 ## 📋 Overview
 
-Safe Lumberjack is a Razor Enhanced macro designed for the UO Sagas shard. It automates the lumberjacking process while handling targeting, weight management, and tool usage intelligently and safely.
+Safe Lumberjack is a custom script designed for the UO Sagas shard. It automates the lumberjacking process while handling targeting, weight management, and tool usage intelligently and safely.
 
 ---
 
