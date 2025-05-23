@@ -140,11 +140,11 @@ function Main()
         if Targeting.WaitForTarget(1000) then
             if needNewTree then
                 Messages.Overhead("Select a tree.", 33, Player.Serial)
-                needNewTree = false
                 if not WaitForTargetCompletion() then
                     Messages.Overhead("Target canceled. Stopping.", 33, Player.Serial)
                     return
                 end
+                needNewTree = false
             else
                 Targeting.TargetLast()
             end
