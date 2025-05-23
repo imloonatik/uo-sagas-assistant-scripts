@@ -6,7 +6,7 @@ Description: Enhanced lumberjacking macro with targeting validation, weight hand
 
 -- Configuration
 local MAX_WEIGHT_DIFF = 10
-local MAX_WEIGHT = 243
+local MAX_WEIGHT = 390
 local ITEM_ID_WOODEN_LOGS = 0x1BDD
 local TOOL_NAME = "hatchet"
 local MAX_RETRIES = 5
