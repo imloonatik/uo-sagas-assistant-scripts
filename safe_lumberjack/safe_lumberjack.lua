@@ -2,6 +2,10 @@
 Originally written for UO Sagas by: Hawks
 Modified and extended by: Loonatik
 Description: Enhanced lumberjacking macro with targeting validation, weight handling, and automatic hatchet management.
+Version: 1.1.0
+
+Update Log:
+- 
 ]]
 
 -- Configuration
@@ -86,7 +90,6 @@ function CheckTreeStatus()
         "You cannot reach that.",
         "You have worn out your tool!",
         "There's not enough wood here to harvest.",
-        
     }
 
     local successMessages = {
