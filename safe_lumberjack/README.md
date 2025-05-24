@@ -68,7 +68,7 @@ Adjust this value if you want to carry more (or less) before converting.
 
 * When starting, the script prompts you to select a tree
 * If you misclick (e.g., wall or rock), it will ask again
-* If you cancel targeting (ESC or right-click), the script will exit cleanly
+* If you cancel targeting (ESC or right-click), you may have to stop the script and start it again
 * If no hatchet is equipped or found, the script also stops safely
 * Logs are automatically converted to boards when weight is near your max
 
