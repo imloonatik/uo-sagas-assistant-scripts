@@ -125,7 +125,7 @@ function Main()
         if Player.Weight > Player.MaxWeight - MAX_WEIGHT_DIFF then
             Messages.Overhead("This shit is getting heavy...", 33, Player.Serial)
             CreateBoards(hatchet)
-            if Player.Weight > MAX_WEIGHT - MAX_WEIGHT_DIFF then
+            if Player.Weight > Player.MaxWeight - MAX_WEIGHT_DIFF then
                 Messages.Overhead("Still too heavy, stopping.", 33, Player.Serial)
                 return
             end
