@@ -46,9 +46,8 @@ local MAX_WEIGHT_DIFF = 10
 ```
 This sets the buffer threshold. For example:
 
-If your Player.MaxWeight is 390
-
-And MAX_WEIGHT_DIFF = 10
+-- If your Player.MaxWeight is 390
+--- And MAX_WEIGHT_DIFF = 10
 
 The script will begin chopping boards when you hit 380 weight
 
