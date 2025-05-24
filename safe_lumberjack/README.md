@@ -7,7 +7,7 @@ Modified and extended by **Loonatik**
 
 ## 📋 Overview
 
-Safe Lumberjack is a custom script designed for the UO Sagas shard. It automates the lumberjacking process while handling targeting, weight management, and tool usage intelligently and safely.
+Safe Lumberjack is a scripting macro for the UO Sagas Assistant. It automates lumberjacking with smart targeting, automatic tool handling, and weight-based log processing.
 
 ---
 
@@ -15,29 +15,25 @@ Safe Lumberjack is a custom script designed for the UO Sagas shard. It automates
 
 - Automatically equips a hatchet if one is not equipped
 - Prompts for tree targeting and reprompts on invalid targets
-- Converts logs into boards when overweight
-- Detects and handles tree exhaustion or invalid targeting
-- Exits safely if targeting is canceled or no tool is available
+- Converts logs into boards when approaching weight limit
+- Detects and handles tree exhaustion or invalid clicks
 
 ---
 
 ## 🔧 How to Install in UO Sagas Assistant
 
-1. Launch **UO Sagas Assistant** (click the feather icon in your game bar).
-2. Navigate to the **Script Editor** tab.
-3. Click **New Script** and name it something like `Safe Lumberjack`.
-4. Paste the contents of `safe_lumberjack.lua` into the editor and click **Save**.
+1. Open the UO Sagas Assistant (feather icon in the game bar)
+2. Go to the **Script Editor** tab
+3. Click **New Script** and name it `Safe Lumberjack`
+4. Paste in the contents of `safe_lumberjack.lua`
+5. Save the script
 
 ---
 
 ## ⚙️ Configuration
 
-Before using the script, **edit the top of the script** to set your desired max weight:
+You no longer need to configure your maximum weight manually.  
+The script uses the character's actual weight limit via:
 
 ```lua
-local MAX_WEIGHT = 390
-local MAX_WEIGHT_DIFF = 10
-```
-
-- MAX_WEIGHT should be close to your character’s actual weight limit.
-- MAX_WEIGHT_DIFF is the buffer zone — when your weight is above MAX_WEIGHT - MAX_WEIGHT_DIFF, the script will convert logs to boards.
+Player.MaxWeight
